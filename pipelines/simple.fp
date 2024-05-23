@@ -5,10 +5,6 @@ pipeline "fire" {
         output "echo_1" {
             value = "Fire 1"
         }
-
-        output "echo_2" {
-            value = "Fire 2"
-        }
     }
 
     step "transform" "echo3" {
