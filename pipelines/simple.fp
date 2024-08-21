@@ -1,4 +1,5 @@
 pipeline "fire" {
+    description = "This mod description comes from variable: ${var.name}"
     step "transform" "echo" {
         value = "Hello Fire"
 
